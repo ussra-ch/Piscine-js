@@ -8,7 +8,7 @@ function split(str, sub){
         }
         return res
     }
-   while (i < str.length){
+    while (i < str.length){
             if (str.slice(i, i + sub.length) === sub){
                 res.push(word);
                 word = ''

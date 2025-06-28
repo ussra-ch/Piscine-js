@@ -77,7 +77,7 @@ function trunc(num){
         return num
     }
     
-        let nbrEntier = 0;
+    let nbrEntier = 0;
      if (num > 0xfffffffff) { 
        num -= 0xfffffffff
        nbrEntier += 0xfffffffff

@@ -6,4 +6,4 @@ function repeat(str, num){
     return ret
 }
 
-console.log(repeat('us', 2))
+console.log(repeat('us', -2))
