@@ -24,9 +24,9 @@ export function pick(){
     svg.setAttribute("xmlns", "http://www.w3.org/2000/svg")
     svg.setAttribute("width", "100%")
     svg.setAttribute("height", "100%")
-    let lineX = document.createElement("line")
+    let lineX = document.createElementNS("http://www.w3.org/2000/svg", "line")
     lineX.id = "axisX"
-    let lineY = document.createElement("line")
+    let lineY = document.createElementNS("http://www.w3.org/2000/svg","line")
     lineY.id = "axisY"
     svg.append(lineX)
     svg.append(lineY)
